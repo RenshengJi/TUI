@@ -25,5 +25,5 @@ Please download the dataset [CIFAR10-C](https://zenodo.org/record/2535967#.ZBiI7
 ## Test
 
 ```bash
-python test_time.py --cfg ./cfgs/cifar10_c/rmt.yaml --gpu 0 --CP_method "TUI" --CP_alpha 0.2
+python test_time.py --cfg ./cfgs/cifar10_c/CPCTTA.yaml --gpu 0 --CP_method "TUI" --CP_alpha 0.2
 ```
